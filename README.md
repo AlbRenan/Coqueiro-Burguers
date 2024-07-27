@@ -11,5 +11,5 @@ Ambiente Utilizado:
 VSCode.
 
 Linguagens Utilizadas:
-HTML;
-CSS.
+- HTML;
+- CSS.
