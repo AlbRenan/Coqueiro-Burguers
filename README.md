@@ -8,8 +8,8 @@ Tela Principal:
 Exibe produtos para venda com uma página simples, mas, bem feita e uma estilização agradável para os usuário/clientes.
 
 Ambiente Utilizado:
-VSCode
+VSCode.
 
 Linguagens Utilizadas:
-HTML
-CSS
+HTML;
+CSS.
