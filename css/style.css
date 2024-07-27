@@ -8,16 +8,23 @@ body {
 
 .navbar {
     background-color: #14213D;
-    height: 5em;
-    text-align: center;
+    height: 6em;
     margin: 0 auto;
+    text-align: center;
+}
+
+.navbar img {
+    width: 8%;
+    position: absolute;
+    left: 2em;
+    top: -2em;
 }
 
 .navbar a {
     color: #E5E5E5;
     text-decoration: none;
     position: relative;
-    top: 1.5em;
+    top: 2em;
     padding: 10px;
     transition: 0.3s;
     font-size: 18px;
@@ -27,9 +34,22 @@ body {
     color: #FCA311;
 }
 
+.texto-chamativo {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+}
+
 main {
     padding-top: 20px;
 }
+
+.texto-chamativo li {
+    list-style-type: none;
+}
+
+/* ---------- Início Lanches ---------- */
 
 #cards-lanches {
     margin: 0 auto;
@@ -47,6 +67,7 @@ main {
     font-size: 15px;
     cursor: pointer;
     border-radius: 5px;
+    transition: 0.3s;
 }
 
 #cards-lanches button:hover {
@@ -72,4 +93,264 @@ main {
 .card-xbacon {
     border: 1px solid #14213D;
     border-radius: 15px;
+}
+
+/* ---------- Final Lanches ---------- */
+
+/* ---------- Início Refrigerantes ---------- */
+
+.refri {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 2px solid #14213D;
+    padding: 10px;
+}
+
+th {
+    background-color: #14213D;
+    color: #E5E5E5;
+    font-size: 20px;
+}
+
+table button {
+    background-color: #14213D;
+    color: #E5E5E5;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+table button:hover {
+    color: #FCA311;
+}
+
+.btnCarrinhoRefri {
+    width: 20%;
+}
+
+/* ---------- Final Refrigerantes ---------- */
+
+/* ---------- Início Acompanhamentos ---------- */
+
+#cards-acompanhamentos {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    gap: 25px;
+}
+
+#cards-acompanhamentos button {
+    background-color: #14213D;
+    color: #E5E5E5;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#cards-acompanhamentos button:hover {
+    color: #FCA311;
+}
+
+#cards-acompanhamentos img {
+    width: 100%;
+    padding: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-batata_cheddar {
+    border: 1px solid #14213D;
+    border-radius: 15px;
+}
+
+.card-onion_rings {
+    border: 1px solid #14213D;
+    border-radius: 15px;
+}
+
+.card-frango_frito {
+    border: 1px solid #14213D;
+    border-radius: 15px;
+}
+
+/* ---------- Final Acompanhamentos ---------- */
+
+/* ---------- Início Combos ---------- */
+
+#cards-combos {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    gap: 25px;
+}
+
+#cards-combos button {
+    background-color: #14213D;
+    color: #E5E5E5;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#cards-combos button:hover {
+    color: #FCA311;
+}
+
+#cards-combos img {
+    width: 100%;
+    padding: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-combo_xburguer {
+    border: 1px solid #14213D;
+    border-radius: 15px;
+}
+
+.card-combo_xsalada {
+    border: 1px solid #14213D;
+    border-radius: 15px;
+}
+
+.card-combo_xbacon {
+    border: 1px solid #14213D;
+    border-radius: 15px;
+}
+
+/* ---------- Final Combos ---------- */
+
+/* ---------- Início Carrinho ---------- */
+
+.carrinho {
+    right: -2em;
+    color: #E5E5E5;
+    padding: 20px;
+    border-radius: 50em;
+    position: fixed; 
+    width: 5%;
+}
+
+.carrinho button {
+    background-color: #14213D;
+    padding: 20px;
+    border-radius: 15em;
+    color: #E5E5E5;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.carrinho button:hover {
+    color: #FCA311;
+}
+
+/* ---------- Final Carrinho ---------- */
+
+/* ---------- Início Mais Opções ---------- */
+
+.mais-opcoes {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mais-opcoes button {
+    background-color: #14213D;
+    color: #E5E5E5;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70%;
+    transition: 0.3s;
+}
+
+.mais-opcoes button:hover {
+    color: #FCA311;
+}
+
+/* ---------- Final Mais Opções ---------- */
+
+/* ---------- Início Footer ---------- */
+
+.rodape {
+    background-color: #14213D;
+    color: #E5E5E5;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape ul {
+    list-style: none;
+}
+
+/* ---------- Final Footer ---------- */
+
+@media screen and (max-width: 1000px) {
+    .texto-chamativo {
+        width: 70%;
+    }
+    
+    #cards-lanches {
+        display: grid;
+    }
+
+    #cards-acompanhamentos {
+        display: grid;
+    }
+
+    #cards-combos {
+        display: grid;
+    }
+
+    .carrinho {
+        left: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .texto-chamativo {
+        width: 70%;
+        display: grid;
+    }
+
+    .rodape {
+        width: 100%;
+    }
+
+    .carrinho {
+        width: 2%;
+        left: -2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        display: none;
+        background-color: #14213D;
+    }
+
+    .carrinho {
+        width: 2%;
+        left: -2em;
+    }
 }

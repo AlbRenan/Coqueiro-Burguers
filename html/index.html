@@ -12,68 +12,226 @@
 
         <nav>
             <div class="navbar">
-                <a href="#">Lanches</a>
-                <a href="#">Refrigerantes</a>
-                <a href="#">Acompanhamentos</a>
-                <a href="#">Combos</a>
+                <img src="../img/logo-transparente.png" alt="Logo">
+                <a href="#cards-lanches">Lanches</a>
+                <a href="#refri">Refrigerantes</a>
+                <a href="#cards-acompanhamentos">Acompanhamentos</a>
+                <a href="#cards-combos">Combos</a>
             </div>
         </nav>
 
     </header>
     <main>
+
+        <div class="carrinho">
+            <button type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+
+        <div class="texto-chamativo">
+        <p>Bem-vindo à nossa hamburgueria, onde cada mordida é uma explosão de sabor!
+             Nossos hambúrgueres são feitos com ingredientes frescos e selecionados, 
+             preparados na hora com todo o carinho e atenção que você merece.</p>
+
+        <h3>Por que escolher a gente?</h3>
+        <ul>
+            <li><i class="fa-solid fa-burger"></i> Ingredientes Frescos e Locais</li>
+            <li><i class="fa-solid fa-circle-exclamation"></i>  Receitas Exclusivas</li>
+            <li><i class="fa-solid fa-seedling"></i>Opções Vegetarianas e Veganas</li>
+            <li><i class="fa-solid fa-fire"></i> Acompanhamentos Irresistíveis</li>
+        </ul>
+
+        <h3>Promoção de Abertura</h3>
+        <p>Nos primeiros 30 dias, 10% de desconto no primeiro pedido!</p>
+            </div>
+
+                                 <!------------ Início Lanches ------------>
+
         <center><h1>Lanches</h1></center>
+        
         <div id="cards-lanches">
 
             <div class="card-xburguer">
-                <img src="../img/x-burguer.jpeg" alt="Burguer">
+                <img src="../img/x-burguer.jpeg" alt="X-Burguer">
                 <center><h2>X-Burguer</h2></center>
                 <center><p>Ingredientes:</p></center>
                 <ul>
-                    <li>Pão Brioche</li>
-                    <li>Maionese do chefe</li>
-                    <li>Carne</li>
-                    <li>Queijo</li><br>
+                    <li>Pão Brioche;</li>
+                    <li>Maionese do chefe;</li>
+                    <li>Carne;</li>
+                    <li>Queijo Cheddar.</li><br>
                 </ul>
-                <center><p>Preço: R$ 15,00</p></center>
+                <center><p>Preço: R$ 20,00</p></center>
                 <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
                 </div>
 
                 <div class="card-xsalada">
-                    <img src="../img/x-salada.jpg" alt="Burguer">
+                    <img src="../img/x-salada.jpg" alt="X-Salada">
                     <center><h2>X-Salada</h2></center>
                     <center><p>Ingredientes:</p></center>
                     <ul>
-                        <li>Pão Brioche</li>
-                        <li>Maionese do chefe</li>
-                        <li>Alface e Tomate</li>
-                        <li>Carne</li>
-                        <li>Queijo</li>
+                        <li>Pão Brioche;</li>
+                        <li>Maionese do chefe;</li>
+                        <li>Alface e Tomate;</li>
+                        <li>Carne;</li>
+                        <li>Queijo Cheddar.</li>
                     </ul>
-                    <center><p>Preço: R$ 16,00</p></center>
+                    <center><p>Preço: R$ 22,00</p></center>
                     <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
                     </div>
 
                     <div class="card-xbacon">
-                        <img src="../img/x-bacon.jpg" alt="Burguer">
+                        <img src="../img/x-bacon.jpg" alt="X-Bacon">
                         <center><h2>X-Bacon</h2></center>
                         <center><p>Ingredientes:</p></center>
                         <ul>
-                            <li>Pão Brioche</li>
-                            <li>Maionese do chefe</li>
-                            <li>Bacon</li>
-                            <li>Carne</li>
-                            <li>Queijo</li>
+                            <li>Pão Brioche;</li>
+                            <li>Maionese do chefe;</li>
+                            <li>Bacon;</li>
+                            <li>Carne;</li>
+                            <li>Queijo Cheddar.</li>
                         </ul>
-                        <center><p>Preço: R$ 16,00</p></center>
+                        <center><p>Preço: R$ 24,00</p></center>
                         <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
                         </div>
         </div><br><br>
 
-        <center><h1>Refrigerantes</h1></center>
-        <div id="cards-refrigerantes">
+                                 <!------------ Final Lanches ------------>
 
+
+                                 <!------------ Início Refrigerantes ------------>
+        
+        <center><h1>Refrigerantes</h1></center>
+        <div id="refri" class="refri">
+        <table>
+            <div class="tabela-refri">
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th class="btnCarrinhoRefri">Adicionar ao carrinho</th>
+            </tr>
+            <tr>
+                <td>Coca-Cola</td>
+                <td>350ml</td>
+                <td>R$ 6,00</td>
+                <td><button type="submit"><i class="fa-solid fa-cart-shopping"></i></button></td>
+            </tr>
+            <tr>
+                <td>Guaraná</td>
+                <td>350ml</td>
+                <td>R$ 6,00</td>
+                <td><button type="submit"><i class="fa-solid fa-cart-shopping"></i></button></td>
+            </tr>
+            <tr>
+                <td>Sprite</td>
+                <td>350ml</td>
+                <td>R$ 6,00</td>
+                <td><button type="submit"><i class="fa-solid fa-cart-shopping"></i></button></td>
+            </tr>
+        </div>
+        </table><br><br>
+    </div>
+
+                                 <!------------ Final Refrigerantes ------------>
+
+                                 <!------------ Início Acompanhamentos ------------>
+
+    <center><h1>Acompanhamentos</h1></center>
+    <div id="cards-acompanhamentos" class="cards-acompanhamentos">
+        <div class="card-batata_cheddar">
+            <img src="../img/batata-cheddar.jpg" alt="Batata Frita com Cheddar e Bacon">
+            <center><h2>Batata Frita com Cheddar e Bacon</h2></center>
+            <center><p>Preço: R$ 20,00</p></center>
+            <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
         </div>
 
+        <div class="card-onion_rings">
+            <img src="../img/onion-rings.jpg" alt="Onion Rings">
+            <center><h2>Onion Rings</h2></center>
+            <center><p>Preço: R$ 22,00</p></center>
+            <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
+        </div>
+
+        <div class="card-frango_frito">
+            <img src="../img/frango-frito.jpg" alt="Frango Frito">
+            <center><h2>Frango Frito</h2></center>
+            <center><p>Preço: R$ 25,00</p></center>
+            <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
+        </div>
+    </div><br><br>
+
+                                     <!------------ Final Acompanhamentos ------------>
+
+                                     <!------------ Início Combos ------------>
+
+    <center><h1>Combos</h1></center>
+    <div id="cards-combos" class="cards-combos">
+        <div class="card-combo_xburguer">
+            <img src="../img/combo-xburguer.jpg" alt="Combo X-Burguer">
+            <center><h2>Combo X-Burguer</h2></center>
+            <center><p>Acompanha:</p></center>
+                        <ul>
+                            <li>X-Burguer (Pão Brioche, Maionese do chefe, Carne e Queijo Cheddar);</li>
+                            <li>Refrigerante 350ml (A sua escolha);</li>
+                            <li>Batata Frita Pequena.</li>
+                        </ul>
+            <center><p>Preço: R$ 32,00</p></center>
+            <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
+        </div>
+
+        <div class="card-combo_xsalada">
+            <img src="../img/combo-xsalada.jpg" alt="Combo X-Salada">
+            <center><h2>Combo X-Salada</h2></center>
+            <center><p>Acompanha:</p></center>
+            <ul>
+                <li>X-Salada (Pão Brioche, Maionese do chefe, Alface e Tomate, Carne e Queijo Cheddar);</li>
+                <li>Refrigerante 350ml (A sua escolha);</li>
+                <li>Batata Frita Pequena.</li>
+            </ul>
+            <center><p>Preço: R$ 34,00</p></center>
+            <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
+        </div>
+
+        <div class="card-combo_xbacon">
+            <img src="../img/combo-xbacon.jpg" alt="Combo X-Bacon">
+            <center><h2>Combo X-Bacon</h2></center>
+            <center><p>Acompanha:</p></center>
+            <ul>
+                <li>X-Salada (Pão Brioche, Maionese do chefe, Bacon, Carne e Queijo Cheddar);</li>
+                <li>Refrigerante 350ml (A sua escolha);</li>
+                <li>Batata Frita Pequena.</li>
+            </ul>
+            <center><p>Preço: R$ 36,00</p></center>
+            <center><button type="submit"><i class="fa-solid fa-cart-shopping"></i> - Adicionar ao carrinho</button></center><br>
+        </div>
+    </div><br><br>
+
+                                     <!------------ Final Combos ------------>
+
+    <div class="mais-opcoes">
+    <button type="submit">Ver mais opções</button>
+    </div><br><br>
+
+
     </main>
+
+    <footer>
+
+        <div class="rodape">
+        <center>
+            <div class="info">
+                <ul>
+                <li><i class="fa-solid fa-location-dot"></i> Rua Coqueiro Burguers, 123 - Centro</li>   
+                <li><i class="fa-solid fa-phone"></i> (11) 1234-5678</li>
+                <li><i class="fa-solid fa-envelope"></i> contato@burguerscoqueiro.com</li>
+            </ul>
+            </div>
+            </center>
+
+            <span>&copy; 2024 - Coqueiro Burguers</span>
+            
+        </div>
+
+    </footer>
 </body>
 </html>
