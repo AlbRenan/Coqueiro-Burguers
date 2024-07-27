@@ -7,7 +7,7 @@ No momento não tem nenhum tipo de funcionalidade, apenas para mostrar a minha c
 Tela Principal:
 Exibe produtos para venda com uma página simples, mas, bem feita e uma estilização agradável para os usuário/clientes.
 
-Ambiente:
+Ambiente Utilizado:
 VSCode
 
 Linguagens Utilizadas:
