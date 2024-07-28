@@ -1,6 +1,6 @@
 <h1>Coqueiro Burguers</h1>
 
-<li>Coqueiro Burguers é uma Landing Page comercial de venda lanches artesanais, criada por mim mesmo (Renan Albuquerque), focado em atender todos os tipos de públicos com seus deliciosos produtos. Ele facilita a visualização e interação prática para os clientesde todas as idades.</li>
+<p>Coqueiro Burguers é uma Landing Page comercial de venda lanches artesanais, criada por mim mesmo (Renan Albuquerque), focado em atender todos os tipos de públicos com seus deliciosos produtos. Ele facilita a visualização e interação prática para os clientesde todas as idades.</p>
 
 <h3>Detalhes do Projeto:</h3>
 <li> No momento não tem nenhum tipo de funcionalidade, apenas para mostrar a minha capacidade e habilidade no desenvolvimento front-end web;</li>
